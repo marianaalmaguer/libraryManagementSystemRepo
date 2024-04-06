@@ -35,7 +35,7 @@
 @endsection
 
 @section('content')
-<h1>Rellena los gaps del formulario</h1>
+<h1>Fill the gaps</h1>
 
 <form class="book-form" action="{{ route('books.store') }}" method="post">
     @csrf
